@@ -1,6 +1,6 @@
 exports.getData = async (req, res) => {
     try {
-      res.send('hii-from-data-default')
+      res.json({msg:'hello from getData'})
     } catch (e) {
       return res.send(e);
     }
