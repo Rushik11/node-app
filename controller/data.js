@@ -8,7 +8,7 @@ exports.getData = async (req, res) => {
 
 exports.getStudent = async (req, res) => {
     try {
-      res.send('hii-update')
+      res.json({msg:'hello from students'})
     } catch (e) {
       return res.send(e);
     }
